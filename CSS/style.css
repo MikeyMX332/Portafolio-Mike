@@ -1,9 +1,49 @@
-body {
-  background-color: rgb(3, 34, 48);
+/* header */
+
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+  
+}
+.header-wrapper {
+  max-width: 1200;
+  display: flex;
+  padding: 12px;
+  justify-content: space-between;
+}
+.header-brand {
+  width: -100%;
+}
+
+.header-nav {
+  
+  display: flex;
+  gap: 24px;
+
+}
+.header-nav-item {
+  color: var(--azul);
+  padding: 12px 8px;
+}
+
+.header-nav-item:hover {
+  color: var(azul);
+}
+
+.header-nav-button {
+  padding: 12xpx 24px;
+  background-color: chartreuse;
+  border-radius: ;
 }
 
 html {
     font-family: ;
     font-weight: 400;
     font-style: normal;
+  }
+
+  .header-nav-button {
+    background-color: rgb(0, 119, 255);
   }

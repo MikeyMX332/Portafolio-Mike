@@ -17,7 +17,11 @@
 */
 /* Aquí definimos las Custom properties */
 :root {
-  --negro: #393939;
+  --azul: 057BBE;
+  --hightlight: 3AA2DC;
+  --Dark: 001E57;
+  --wite: C8A7FF;
+  --Black: 000125;
   /* Tipografía */
   --tipo-principal: "Sonsie One", system-ui;
   --tipo-secundaria: Verdana;
@@ -152,6 +156,7 @@ body {
   font-size: 100%;
   font-family: var(--tipo-principal);
   color: var(--negro);
+  background-color: blue;
   /* opcional */
   line-height: 1.4em;
   /* opcional */
